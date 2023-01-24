@@ -24,7 +24,18 @@ const Booking = () => {
 
   return (
     <div class="text-2xl mt-12 p-12 w-full h-full md:w-120 md:max-w-full mx-auto">
-      <span className='text-xl md:text-5xl font-semibold text-orange-500 ml-8'>Book your motorbike</span>
+        <div className="flex items-center space-x-4">
+            <Link href="/">
+                <img
+                    src="/IMG_5264.jpg"
+                    width={150} height={150}
+                    className="rounded-full"
+                    alt="logo"
+                />
+            </Link>
+            <h1 className='ml-4'>Andaman Motorbike Rental</h1>
+        </div>
+      <span className='mt-4 ml-12 text-xl md:text-5xl  font-semibold text-orange-500'>Book your motorbike</span>
       <div class="mt-4 p-6 border border-gray-300 sm:rounded-md">
         <form ref={form} onSubmit={sendEmail} action="">
           <label class="block mb-6">
@@ -178,7 +189,7 @@ const Booking = () => {
 
           </div>
         </form>
-        <Link href="/" className='px-5 py-3 justify-end text-sm md:text-base bg-gray-900 text-orange-400 flex rounded-full hover:bg-black-700 hover:text-orange-900'>Go back to Home Page</Link>
+        <Link href="/" className='px-5 py-3 justify-center text-center text-sm md:text-base bg-gray-900 text-orange-400 flex rounded-full hover:bg-black-700 hover:text-orange-900'>Go back to Home Page</Link>
 
       </div>
     </div>
