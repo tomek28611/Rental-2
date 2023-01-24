@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header className="flex items-center justify-between space-x-2 font-bold px-10 py-5">
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-4">
             <Link href="/">
                 <img
                     src="/IMG_5264.jpg"
@@ -15,7 +15,7 @@ const Header = () => {
                     alt="logo"
                 />
             </Link>
-            <h1>Andaman Motorbike Rental</h1>
+            <h1 className='ml-4'>Andaman Motorbike Rental</h1>
         </div>
 
         <div className="">

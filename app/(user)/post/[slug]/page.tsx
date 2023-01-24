@@ -4,7 +4,7 @@ import { client } from '../../../../utils/sanity.client';
 import urlFor from '../../../../utils/urlFor';
 import {PortableText} from '@portabletext/react'
 import { RichTextComponents } from '../../../../components/RichTextComponents';
-import order from '../../../../components/Order'
+
 
 
 type Props = {
@@ -41,7 +41,7 @@ async function Post({params: {slug}}: Props) {
                 <section className='p-5 bg-orange-400 w-full'>
                     <div className="flex flex-row md:flex-row justify-between gap-y-5">
                         <div className="">
-                            <h1 className="text-4xl font-extrabold">{post.title}</h1>
+                            <h1 className="sm:text-xl md:text-4xl font-extrabold">{post.title}</h1>
                             <p>
                                 {/* {new Date(post._createdAt).toLocaleDateString("en-US", {
                                     day: "numeric",
@@ -87,23 +87,27 @@ async function Post({params: {slug}}: Props) {
             </div>
         </section>
    
-
         <PortableText  value={post.body} components={RichTextComponents} />
 
         {/* FORM */}
+
+    
+
+
         <div>
         <hr className="border-orange-600 mb-10" />
            <h1 className="text-center font-bold sm:text-2xl md:text-4xl">ORDER YOUR MOTOTBIKE</h1>
            
         <form  action="">
           <label className="block mb-6">
-            <span className="text-orange-500">Your name</span>
+            <span className="text-orange-500 font-bold text-xl">Your name</span>
             <input
               name="name"
               type="text"
               className="
             block
-            w-full          
+            w-full  
+            ml-6        
             mt-1
             border-gray-300
             rounded-md
@@ -118,13 +122,14 @@ async function Post({params: {slug}}: Props) {
             />
           </label>
           <label className="block mb-6">
-            <span className="text-orange-500">Email address</span>
+            <span className="text-orange-500 font-bold text-xl">Email address</span>
             <input
               name="email"
               type="email"
               className="
             block
             w-full
+            ml-6 
             mt-1
             border-gray-300
             rounded-md
@@ -139,13 +144,14 @@ async function Post({params: {slug}}: Props) {
             />
 
             <label className="block mb-6 mt-4">
-              <span className="text-orange-500">Phone number</span>
+              <span className="text-orange-500 font-bold text-xl">Phone number</span>
               <input
                 name="phone"
                 type="text"
                 className="
             block
             w-full
+            ml-6 
             mt-1
             border-gray-300
             rounded-md
@@ -162,13 +168,14 @@ async function Post({params: {slug}}: Props) {
 
           </label>
           <label className="block mb-6">
-            <span className="text-orange-500">When you want rent bike?</span>
+            <span className="text-orange-500 font-bold text-xl">When you want rent bike?</span>
             <input
               name="day"
               type="date"
               className="
             block
             w-full
+            ml-6 
             mt-1
             border-gray-300
             rounded-md
@@ -182,13 +189,14 @@ async function Post({params: {slug}}: Props) {
           </label>
 
           <label className="block mb-6">
-            <span className="text-orange-500">How many days /min. 3 days/</span>
+            <span className="text-orange-500 font-bold text-xl">How many days /min. 3 days/</span>
             <input
               name="days"
               type="text"
               className="
             block
             w-full
+            ml-6 
             mt-1
             border-gray-300
             rounded-md
@@ -204,12 +212,13 @@ async function Post({params: {slug}}: Props) {
 
 
           <label className="block mb-6">
-            <span className="text-orange-500">Chose model you would like to rent ?</span>
+            <span className="text-orange-500 font-bold text-xl">Chose model you would like to rent ?</span>
             <select
               name="model"
               className="
             block
             w-full
+            ml-6 
             mt-1
             border-gray-300
             rounded-md

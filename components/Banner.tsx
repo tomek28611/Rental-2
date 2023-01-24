@@ -5,10 +5,10 @@ function Banner() {
   return (
     <div className="flex flex-col lg:flex-row lg:space-x-5 justify-between font-bold px-10 py-5 mb-10">
       <div>
-        <h1 className="sm:text-2xl md:text-4xl pb-4">Welcome to Andaman Rental Motorbikes</h1>
+        <h1 className="sm:text-2xl md:text-4xl pb-4 ml-2">Welcome to Andaman Rental Motorbikes</h1>
         <h2 className="mt-5 md:mt-0">
 
-          <span className="underline decoration-4 decoration-orange-400 text-center text-xl">
+          <span className="sm:text-xl md:text-2xl underline decoration-4 decoration-orange-400 text-center ml-2">
             Our Team will help you with chose motorbike for you
           </span>{" "}
 
