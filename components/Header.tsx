@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 const Header = () => {
   return (
     <header className="flex items-center justify-between space-x-2 font-bold px-10 py-5">
@@ -19,8 +20,8 @@ const Header = () => {
 
         <div className="">
         <Link href="/"
-            className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full">
-            Contact
+            className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full hover:bg-black-700 hover:text-orange-900">
+            Order
         </Link>
         </div>
 
