@@ -43,11 +43,11 @@ async function Post({params: {slug}}: Props) {
                         <div className="">
                             <h1 className="text-4xl font-extrabold">{post.title}</h1>
                             <p>
-                                {new Date(post._createdAt).toLocaleDateString("en-US", {
+                                {/* {new Date(post._createdAt).toLocaleDateString("en-US", {
                                     day: "numeric",
                                     month: "long",
                                     year: "numeric",
-                                })}
+                                })} */}
 
                             </p>
                         </div>
@@ -97,7 +97,7 @@ async function Post({params: {slug}}: Props) {
            
         <form  action="">
           <label className="block mb-6">
-            <span className="text-gray-700">Your name</span>
+            <span className="text-orange-500">Your name</span>
             <input
               name="name"
               type="text"
@@ -118,7 +118,7 @@ async function Post({params: {slug}}: Props) {
             />
           </label>
           <label className="block mb-6">
-            <span className="text-gray-700">Email address</span>
+            <span className="text-orange-500">Email address</span>
             <input
               name="email"
               type="email"
@@ -139,7 +139,7 @@ async function Post({params: {slug}}: Props) {
             />
 
             <label className="block mb-6 mt-4">
-              <span className="text-gray-700">Phone number</span>
+              <span className="text-orange-500">Phone number</span>
               <input
                 name="phone"
                 type="text"
@@ -162,7 +162,7 @@ async function Post({params: {slug}}: Props) {
 
           </label>
           <label className="block mb-6">
-            <span className="text-gray-700">When you want rent bike?</span>
+            <span className="text-orange-500">When you want rent bike?</span>
             <input
               name="day"
               type="date"
@@ -182,7 +182,7 @@ async function Post({params: {slug}}: Props) {
           </label>
 
           <label className="block mb-6">
-            <span className="text-gray-700">How many days /min. 3 days/</span>
+            <span className="text-orange-500">How many days /min. 3 days/</span>
             <input
               name="days"
               type="text"
@@ -204,9 +204,7 @@ async function Post({params: {slug}}: Props) {
 
 
           <label className="block mb-6">
-            <span className="text-gray-700"
-            >Chose model you would like to rent ?</span
-            >
+            <span className="text-orange-500">Chose model you would like to rent ?</span>
             <select
               name="model"
               className="
@@ -243,7 +241,7 @@ async function Post({params: {slug}}: Props) {
           <div className="mb-6">
            
 
-            <button className='mt-8 bg-slate-400 text-black hover:bg-black/50 hover:text-white'>Reserve Motorbike</button>
+            <button className='px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex rounded-full hover:bg-black-700 hover:text-orange-900'>Reserve Motorbike</button>
           </div>
           <div>
 
