@@ -89,7 +89,10 @@ async function Post({params: {slug}}: Props) {
    
 
         <PortableText  value={post.body} components={RichTextComponents} />
+
+        {/* FORM */}
         <div>
+        <hr className="border-orange-600 mb-10" />
            <h1 className="text-center font-bold sm:text-2xl md:text-4xl">ORDER YOUR MOTOTBIKE</h1>
            
         <form  action="">
@@ -179,7 +182,7 @@ async function Post({params: {slug}}: Props) {
           </label>
 
           <label className="block mb-6">
-            <span className="text-gray-700">How many days</span>
+            <span className="text-gray-700">How many days /min. 3 days/</span>
             <input
               name="days"
               type="text"
@@ -219,8 +222,10 @@ async function Post({params: {slug}}: Props) {
             focus:ring-opacity-50
           " required
             >
-              <option>New Yamaha NMAX</option>
+              <option>New Yamaha Airmax</option>
               <option>New Honda PCX </option>
+              <option>New Honda Click 160 </option>
+              <option>New Honda ADV </option>
               <option>New Yamaha XMAX</option>
               <option>New Harley Davidson</option>
             </select>
@@ -243,6 +248,7 @@ async function Post({params: {slug}}: Props) {
           <div>
 
           </div>
+          <hr className="border-orange-600 mb-10" />
         </form>
 
            
