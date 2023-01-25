@@ -32,7 +32,7 @@ function BlogList({posts}: Props) {
                 <div>
                   <p className="font-bold">{post.title}</p>
 
-                  <p>
+                  {/* <p>
                     {new Date(post._createdAt).toLocaleDateString
                     ("en-US", {
                       day: "numeric",
@@ -40,7 +40,7 @@ function BlogList({posts}: Props) {
                       year: "numeric",
                     })
                     }
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
                   {post.categories.map(category => (
