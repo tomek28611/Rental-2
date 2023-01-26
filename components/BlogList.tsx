@@ -67,6 +67,7 @@ function BlogList({posts}: Props) {
           </ClientSideRoute>
         ))}
       </div>
+      
     </div>
   );
   
