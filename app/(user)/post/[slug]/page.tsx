@@ -269,6 +269,12 @@ async function Post({ params: { slug } }: Props) {
              md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full hover:bg-black-700 hover:text-orange-900">
             Reserve Your Motorbike
         </Link>
+        <h1 className="p-4 text-center text-orange-500 font-bold text-xl">or </h1>
+        <Link href="/"
+            className="px-5 py-3 text-center justify-center
+             md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full hover:bg-black-700 hover:text-orange-900">
+            Go back to see all Motorbike's
+        </Link>
       
     </article>
   )
