@@ -9,7 +9,7 @@ function Banner() {
         <h2 className="mt-5 md:mt-0">
 
           <span className="sm:text-xl md:text-2xl underline decoration-4 decoration-orange-400 text-center ml-2">
-            Our Team will help you with chose motorbike for you
+            Our Team will help you with chose motorbike for You
           </span>{" "}
 
         </h2>
