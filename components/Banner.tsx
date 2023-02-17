@@ -40,11 +40,11 @@ function Banner() {
             className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex rounded-full hover:bg-black-700 hover:text-orange-900">
             Line
           </Link>
-          <Link href="/"
+          <Link href="https://t.me/Tomek1902"
             className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full hover:bg-black-700 hover:text-orange-900">
-            Messenger
+            Telegram
           </Link>
-          <Link href="/"
+          <Link href="http://wa.me/420607231628"
             className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full hover:bg-black-700 hover:text-orange-900">
             WhatssApp
           </Link>
