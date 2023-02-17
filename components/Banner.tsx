@@ -13,8 +13,8 @@ function Banner() {
           </span>{" "}
 
         </h2>
-        <div className="mt-6">
-          <img src="/phuket.jpg" alt="/" />
+        <div className="mt-6 justify-center">
+          <img src="/IMG_5264.jpg" alt="/" />
         </div>
 
         <div className="text-center">
