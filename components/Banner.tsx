@@ -27,15 +27,15 @@ function Banner() {
         <div className="mt-8 flex items-center space-x-2 justify-between">
           <Link href="/"
             className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex rounded-full hover:bg-black-700 hover:text-orange-900">
-            Contact Line
+            Line
           </Link>
           <Link href="/"
             className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full hover:bg-black-700 hover:text-orange-900">
-            Contact Messenger
+            Messenger
           </Link>
           <Link href="/"
             className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full hover:bg-black-700 hover:text-orange-900">
-            Contact WhatssApp
+            WhatssApp
           </Link>
         </div>
       </div>
