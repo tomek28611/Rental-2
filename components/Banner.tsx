@@ -36,7 +36,7 @@ function Banner() {
         </div>
 
         <div className="mt-8 flex items-center space-x-2 justify-between">
-          <Link href="/"
+          <Link href="https://line.me/ti/p/7E4dATvcBe"
             className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex rounded-full hover:bg-black-700 hover:text-orange-900">
             Line
           </Link>
