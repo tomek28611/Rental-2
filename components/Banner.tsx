@@ -34,20 +34,25 @@ function Banner() {
           <h2 className="text-2xl mt-2">WE DO NOT CHARGE FOR SMALL SCRATCHES</h2>
           <h2 className="text-2xl mt-2">FREE PHONE HOLDER & SANITIZED HELMETS</h2>
         </div>
+        <div className="bg-orange-500 text-black text-center text-2xl mt-6  ">Contact us</div>
 
         <div className="mt-8 flex items-center space-x-2 justify-between">
-          <Link href="https://line.me/ti/p/7E4dATvcBe"
-            className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex rounded-full hover:bg-black-700 hover:text-orange-900">
-            Line
+          <div className="">
+          <Link href="https://line.me/ti/p/7E4dATvcBe">
+            <img className='sm:w-13 sm:h-13 md:w-20 md:h-20' src="/line.png" alt="line" />
           </Link>
-          <Link href="https://t.me/Tomek1902"
-            className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full hover:bg-black-700 hover:text-orange-900">
-            Telegram
+          </div>
+          <Link href="https://t.me/Tomek1902">
+            <img className='sm:w-15 sm:h-15 md:w-20 md:h-20' src="/telegram.png" alt="telegram" />
           </Link>
-          <Link href="http://wa.me/420607231628"
-            className="px-5 py-3 text-sm md:text-base bg-gray-900 text-orange-400 flex items-center rounded-full hover:bg-black-700 hover:text-orange-900">
-            WhatssApp
+          <Link href="/">
+          <img className='sm:w-15 sm:h-15 md:w-20 md:h-20' src="/messenger.png" alt="line" />
           </Link>
+          <Link href="http://wa.me/420607231628">
+          <img className='sm:w-15 sm:h-15 md:w-20 md:h-20' src="/whatsapp.png" alt="line" />
+          </Link>
+          
+
         </div>
       </div>
 
